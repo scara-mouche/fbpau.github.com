@@ -1,0 +1,78 @@
+body {
+align-items: center;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+ text-align: center;
+ color: #2686FF;
+}
+
+.wrapper {
+ text-align: center; 
+ box-shadow: 0 0 10px black;
+ border-radius: 5px;
+ max-width: fit-content;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+ padding-top: 5px;
+}
+
+.input-box input {
+ width: 270px;
+ height: 25px;
+ margin-bottom: 15px;
+ margin-top: 5px;
+ font-size: 16px;
+ padding: 10px;
+ border-radius: 4px;
+}
+
+button {
+ width: 295px;
+ height: 35px;
+ color: white;
+ background: #265CEB;
+ border-radius: 5px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ font-size: 16px;
+}
+
+.forgot a {
+ text-decoration: none;
+ color: #3E8BEC;
+ font-size: 15px;
+}
+
+.forgot a:hover {
+ text-decoration: underline;
+ color: black;
+}
+
+.blank {
+ margin-top: 15px;
+ margin-bottom: 15px;
+ color: gray;
+ font-size: 15px;
+}
+
+.create button {
+ color: white;
+ background: #18E555;
+ border-radius: 5px;
+ height: 35px;
+ width: 60%;
+}
+
+.create button a {
+ text-decoration: none;
+ color: white;
+}
+
+.eme label {
+ display: flex;
+}
